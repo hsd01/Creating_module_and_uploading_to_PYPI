@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: plot-chart-HSD
+Version: 0.1.1
+Summary: A basic operations with arithmetic operators
+Home-page: UNKNOWN
+Author: HSD
+Author-email: ashuhemantsingh@gmail.com
+License: UNKNOWN
+Description: This is a simple graph plot which take csv file from googal sheet and plot.
+        function names : sheet_id(_id), sec_col('column_name','column_name'), plot_chart(x,y)
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+plot_chart/__init__.py
+plot_chart_HSD.egg-info/PKG-INFO
+plot_chart_HSD.egg-info/SOURCES.txt
+plot_chart_HSD.egg-info/dependency_links.txt
+plot_chart_HSD.egg-info/top_level.txt
