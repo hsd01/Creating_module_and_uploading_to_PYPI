@@ -1,5 +1,10 @@
 # Creating_module_and_uploading_to_PYPI
 
+
+This module is created for google sheet it helps google sheet csv file to take from google drive and plot graph for the desired column values.
+
+
+
 First make a folder I named my folder as greenDeck_Task2. In this folder create another folder with whatever name of package in here I named it as plot_chart. Inside plot_chart folder one python file exist which I created with name “__init__.py”.
 In here I wrote simple code to read google sheet and save as data frame I used pandas to read the file and store it in df variable. Then created function. Then I choose which column is going to be the x axis and which column is going to be y axis. Function plot_chart(x,y) takes two argument as x-axis and y-axis which will plot a graph 
  Creating the package files
