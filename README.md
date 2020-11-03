@@ -5,8 +5,8 @@ In here I wrote simple code to read google sheet and save as data frame I used p
  Creating the package files
 I will now create a handful of files to package up this project and prepare it for distribution. Createating the new files listed below and place them in the project’s root directory like
 ---------greenDeck_Task2
-|------plot_chart
-            |------ __init__.py
+|------plot_chart>
+            -->------ __init__.py
 |------LICENCE
 |------README.txt
 |------MANIFEST.in
