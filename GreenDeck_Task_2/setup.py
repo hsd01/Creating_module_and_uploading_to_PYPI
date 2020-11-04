@@ -5,7 +5,7 @@ with open("README.txt", "r") as fh:
 
 setuptools.setup(
     name="plot_chart_HSD", # Replace with your own username
-    version="0.1.1",
+    version="0.4.0",
     author="HSD",
     author_email="ashuhemantsingh@gmail.com",
     description="A basic operations with arithmetic operators",
