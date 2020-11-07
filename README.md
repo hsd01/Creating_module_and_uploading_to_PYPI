@@ -25,7 +25,7 @@ I will now create a handful of files to package up this project and prepare it f
 
 |------setup.py
 
-Creating setup.py
+# Creating setup.py
 
 setup.py is the build script for setuptools. It tells setuptools about your package (such as the name and version) as well as which code files to include.
 
@@ -82,7 +82,7 @@ Creating README
 Open README and enter the following content. If you want your own content you can customize this if you’d like
 This is a simple graph plot which take csv file from googal sheet and plot.
 
-Creating a LICENSE
+# Creating a LICENSE
 
 It’s important for every package uploaded to the Python Package Index to include a license. This tells users who install your package the terms under which they can use your package. I’m using license from MIT as bellow.
 
@@ -96,23 +96,27 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 
 
-Generating distribution archives
+# Generating distribution archives
 
 The next step is to generate distribution packages for the package. These are archives that are uploaded to the Package Index and can be installed by pip.
 Make sure you have the latest versions of setuptools and wheel installed:
+
 python setup.py sdist bdist_wheel
+
 the above command should be typed from greenDeck_Task2 folder which is our root folder.
 This command should output a lot of text and once completed should generate two files in the dist directory one is .whl and other it .tar
 
 
-Uploading the distribution archives
+# Uploading the distribution archives
 
 The first thing you’ll need to do is register an account on Test PyPI. Test PyPI is a separate instance of the package index intended for testing and experimentation.To register an account, go to https://test.pypi.org/account/register/ and complete the steps on that page. You will also need to verify your email address before you’re able to upload any packages.
 Now you’ll create a PyPI API token so you will be able to securely upload your project.
 Go to https://test.pypi.org/manage/account/#api-tokens and create a new API token; don’t limit its scope to a particular project.Don’t close the page until you have copied and saved the token — you won’t see that token again.
 Now that you are registered, you can use twine to upload the distribution packages. You’ll need to install Twine
 
+
 python -m twine upload --repository testpypi dist/*
+
 
 this is link where it can be installed
 
