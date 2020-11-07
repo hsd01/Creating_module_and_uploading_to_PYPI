@@ -126,6 +126,7 @@ pip install -i https://test.pypi.org/simple/ plot-chart-HSD
   -matplot lib
   -pandas
   --this two package are needed
+  get google_sheet file data from :https://docs.google.com/spreadsheets/d/1SrZfvr2ee54r7HR1jGtAE9zHIj_Y-UzK9ok8bdwkpqc/edit#gid=0
   
  # How to Initialize the library and use it
   
