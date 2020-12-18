@@ -8,7 +8,7 @@ setuptools.setup(
     version="0.4.0",
     author="HSD",
     author_email="ashuhemantsingh@gmail.com",
-    description="A basic operations with arithmetic operators",
+    description="ploat chart with gsheet",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="",
