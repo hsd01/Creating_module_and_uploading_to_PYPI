@@ -125,17 +125,17 @@ pip install -i https://test.pypi.org/simple/ plot-chart-HSD
 # How to install library using pip
 
 * go to command prompt and type pip install -i https://test.pypi.org/simple/ plot-chart-HSD
-  this will install the the package. 
-  In order for this package to work some recomended package which are
-  -matplot lib
+  This will install the package. 
+  For this package to work, some recomended package which are
+  -Matplotlib
   -pandas
   --this two package are needed
   get google_sheet file data from :https://docs.google.com/spreadsheets/d/1SrZfvr2ee54r7HR1jGtAE9zHIj_Y-UzK9ok8bdwkpqc/edit#gid=0
   
  # How to Initialize the library and use it
   
- * first we need to go to google sheet and on right top corner click share a pop up will pop open here we need to select get link we want to make this share. if          anyone have link only they can use it. eg.: my link is "https://docs.google.com/spreadsheets/d/1jbcRvatx1DmtxWWwC7dcEwSyYOAxD0iFICGN33JoUSk/edit?usp=sharing"
-    in this link we only want token or key. call it what you like anyone have link only they can access, eg. my link is key is:
+ * first we need to go to google sheet and on right top corner, click Share. A pop-up will pop open here we need to select get link we want to make this share. if          anyone have link only they can use it. eg.: my link is "https://docs.google.com/spreadsheets/d/1jbcRvatx1DmtxWWwC7dcEwSyYOAxD0iFICGN33JoUSk/edit?usp=sharing"
+    In this link we only want token or key. call it what you like anyone have link only they can access, eg. my link is key is:
     "1jbcRvatx1DmtxWWwC7dcEwSyYOAxD0iFICGN33JoUSk" every key can be found after "https://docs.google.com/spreadsheets/d/" and before "/edit?usp=sharing" the key
     looks like https://docs.google.com/spreadsheets/d/ KEY /edit?usp=sharing
            
